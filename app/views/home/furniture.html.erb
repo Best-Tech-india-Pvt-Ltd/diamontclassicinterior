@@ -1,0 +1,238 @@
+
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-bg head-bg">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Diamond Classic Interior</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                <%=  link_to "Modular Kitchen", "modular_kitchen" %>
+    
+                  <%=  link_to "Furniture Work", "furniture" %>
+                  <%=  link_to "Complete Interior Work", "completeinteriorwork" %>
+                  <%=  link_to "Complete Automation", "completeautomation" %>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Our Works</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                <%=  link_to "Living Room", "living" %>
+    
+                  <%=  link_to "Kitchen", "kitchen" %>
+                  <%=  link_to "Bathroom", "bathroom" %>
+
+                  <%=  link_to "Bedroom", "bedroom" %>
+                  
+                  <%=  link_to "Lobby", "lobby" %>
+                  <%=  link_to "Dining Room", "dining" %>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#events">Projects</a></li>
+    
+              <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+    
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Book a Quote</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Features Section ======= -->
+  <section id="features" class="features section-bg">
+    <div class="container content-bg " data-aos="fade-up">
+
+      <ul class="nav nav-tabs row  g-2 d-flex">
+        <h1>Furniture</h1>
+
+        <li class="nav-item col-3">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <h4>Dining table</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <h4>Sofa's</h4>
+          </a><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <h4>Chair & table</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <h4> Cabinets </h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane active show" id="tab-1">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+              data-aos="fade-up" data-aos-delay="100">
+              <h3>Voluptatem dignissimos provident</h3>
+              <p class="fst-italic">
+                We also put things on tables for a longer time, for example a TV, computer or decorations (pretty
+                things).
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i>Often we put a cloth on the table, flat on the top.</li>
+                <li><i class="bi bi-check2-all"></i> There are traditional ways of putting the
+                  cloth.</li>
+                <li><i class="bi bi-check2-all"></i> We can make some tables bigger, for example by pulling the top out.
+                  We can also fold some tables to transport them better, for example for camping. </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center about-img" data-aos="fade-up" data-aos-delay="200">
+            <%= image_tag 'fur1.jpg' , class: "img-fluid" , alt: "" %>
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Neque exercitationem debitis</h3>
+              <p class="fst-italic">
+                Wikipedia differs from printed references in important ways. It is continually created and updated.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> It has become more comprehensive than any other encyclopedia.</li>
+                <li><i class="bi bi-check2-all"></i>Over time, Wikipedia's pages tend to become more comprehensive and
+                  balanced. Wikipedia has tested the wisdom of the crowd since 2001 and found that it succeeds. </li>
+                <li><i class="bi bi-check2-all"></i> As
+                  Linus's law asserts, "Given enough eyeballs, all bugs are shallow.</li>
+                <!-- <li><i class="bi bi-check2-all"></i> </li> -->
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center about-img">
+            <%= image_tag 'fur2.webp' , class: "img-fluid" , alt: "" %>
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-3">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Voluptatibus commodi accusamu</h3>
+              <ul>
+                <li><i class="bi bi-check2-all"></i>Chairs were in existence since at least the Early Dynastic Period of
+                  Egypt.</li>
+                <li><i class="bi bi-check2-all"></i> Tables of various shapes, heights, and sizes are designed for
+                  specific uses:</li>
+                <li><i class="bi bi-check2-all"></i> Chairs can be made from wood, metal, or other strong materials,
+                  like stone or acrylic</li>
+              </ul>
+              <p class="fst-italic">
+                The earliest images of chairs in China are from 6th-century Buddhist murals and stele, but the practice
+                of sitting in chairs at that time was rare.
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center about-img">
+            <%= image_tag 'fur3.jpg' , class: "img-fluid" , alt: "" %>
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-4">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Omnis fugiat ea explicabo sunt</h3>
+              <p class="fst-italic">
+                A cabinet is a type of furniture with enclosed shelves and sometimes a door in front. It is usually made
+                of wood.
+
+
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i>Metal may be used in industrial or public areas.</li>
+                <li><i class="bi bi-check2-all"></i>Some cabinets stand alone; others are attached
+                  to a wall.</li>
+                <li><i class="bi bi-check2-all"></i>Talk pages are where people discuss how to make content on Wikipedia
+                  the best that it can be. You can use this page to start a discussion with others about how to improve
+                  Cabinet (furniture).
+
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center about-img">
+            <%= image_tag 'fur4.jpg' , class: "img-fluid" , alt: "" %>
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+      </div>
+
+    </div>
+  </section><!-- End Features Section -->
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  <div class="container-fluid row">
+      <div class="col-4">
+          <div class="footer-info">
+              <h4><i class="fa fa-map-marker me-3"></i>Address<span>.</span></h4>
+              <p> A108 Adam Street <br> NY 535022, USA<br><br>
+                  <i class="fa fa-phone me-3"></i> <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <i class="fa fa-envelope me-3"></i> <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+              </div>
+          </div>
+      </div>
+      <div class="col-4">
+
+          <h3>Diamond Classic</h3>
+          <p>Change your life style with us.</p>
+          <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-youtube-play"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+      </div>
+      <div class="col-4" style="text-align: -webkit-center;">
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <form action="" method="post">
+                  <input type="email" name="email" class="subs">
+                  <input type="submit" value="Subscribe" class="subscribe">
+              </form>
+          </div>
+      </div>
+      <div class="copyright">
+          &copy; Copyright <strong><span>Diamond Classic</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
+          Designed by <a href="">Best Tech Pvt Ltd</a>
+      </div>
+  </div>
+</footer>
+
+

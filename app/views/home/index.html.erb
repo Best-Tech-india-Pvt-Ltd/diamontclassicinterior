@@ -1,0 +1,1013 @@
+<section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+        <i class="bi bi-phone d-flex align-items-center"><span>+91 969-030-3021</span></i>
+        <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
+    </div>
+</section>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <div class="logo me-auto">
+            <h1><%=  link_to "Diamond Classic Interior", "index" %></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                <%=  link_to "Modular Kitchen", "modular_kitchen" %>
+    
+                  <%=  link_to "Furniture Work", "furniture" %>
+                  <%=  link_to "Complete Interior Work", "completeinteriorwork" %>
+                  <%=  link_to "Complete Automation", "completeautomation" %>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Our Works</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                <%=  link_to "Living Room", "living" %>
+    
+                  <%=  link_to "Kitchen", "kitchen" %>
+                  <%=  link_to "Bathroom", "bathroom" %>
+
+                  <%=  link_to "Bedroom", "bedroom" %>
+                  
+                  <%=  link_to "Lobby", "lobby" %>
+                  <%=  link_to "Dining Room", "dining" %>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#events">Projects</a></li>
+    
+              <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+    
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+        <a href="#book-a-table" class="book-a-table-btn scrollto">Book a Quote</a>
+
+    </div>
+</header>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="100000"  >
+            <%= image_tag 'cc1.jpg' , class: "d-block w-100" , alt: "" %>
+                <div class="center carousel-caption d-none d-md-block">
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="carousel-container">
+                                <div class="carousel-content">
+                                    <h1 class="animate__animated animate__fadeInDown" style="color: aliceblue;"><span>Building
+                                        Amazing <br> Interior Design</span>
+                                    </h1>
+                                    <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                                    <div>
+                                        <a href="#menu"
+                                            class="btn-menu animate__animated animate__fadeInUp scrollto"  >Our Menu</a>
+                                        <a href="#book-a-table"
+                                            class="btn-book animate__animated animate__fadeInUp scrollto">VIEW
+                                            PROJECTS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000" >
+            <%= image_tag 'crr1.jpg' , class: "d-block w-100" , alt: "" %>
+            <div class="center carousel-caption d-none d-md-block">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h1 class="animate__animated animate__fadeInDown" style="color: aliceblue;">Building
+                                    Amazing <br> Interior<span> Design</span>
+                                </h1>
+                                <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                                <div>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">VIEW
+                                        PROJECTS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000" >
+            <%= image_tag 'cc1.jpg' , class: "d-block w-100" , alt: "" %>
+            <div class="center carousel-caption d-none d-md-block">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h1 class="animate__animated animate__fadeInDown" ><span> Building
+                                    Amazing <br> Interior Design</span>
+                                </h1>
+                                <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                                <div>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">VIEW
+                                        PROJECTS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container-fluid">
+
+            <div class="container-fluid row">
+
+                <div class="col-lg-5 embed-responsive embed-responsive-16by9">
+                    <!-- <if rame class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?" allowfullscreen></if> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5Ly-psAbS0k"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                    <div class="content">
+                        <h3> <strong>We Provide The Best Interior Designing Services.</strong></h3>
+                        <p>
+                            Welcome to Diamond Classic Interior, The home of High-End Luxurious Interiors designs. Since
+                            our
+                            establishment, Diamond Classic Interior has earned a reputation of being one of the leading
+                            luxury
+                            interor designing brands.
+                        </p>
+                        <p class="fst-italic">
+                            The brand is recognized for translating extravagant fantasies into well-designed functional
+                            and
+                            luxurious spaces.
+                        </p>
+                        <ul>
+                            <li><i class="bx bx-check-double"></i> Our signature design process comes
+                                standardâ€¦refresh, remodel,
+                                new and enjoyable design experience.</li>
+                            <li><i class="bx bx-check-double"></i> Our signature design process comes standardâ€¦refresh
+                            </li>
+
+                        </ul>
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in
+                            voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt
+                            in
+                            culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Whu Us Section ======= -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>REASONS TO <span>CHOOSE US</span></h2>
+                <p>Diamond Classic Interior Pride Ourselves On Working In Close Partnership With Our Diverse, Global
+                    Client
+                    Base With Whom We Tend To Naturally Develop Lasting Relationships. We Have A Prestigious Portfolio
+                    Of Local
+                    Projects, From Luxury Apartments And Duplex Penthouses In Most Parts Of The Cities! Feel Free To
+                    Browse Our
+                    Previous And Future Projects.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span>01</span>
+                        <h4>Architecture Business Solutions</h4>
+                        <p>What is business architecture? Business architecture allows everyone - from strategic.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="box">
+                        <span>02</span>
+                        <h4>Top Quality Services With Reasonable Price</h4>
+                        <p>planning teams through implementation teams - to get "on the same page.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="box">
+                        <span>03</span>
+                        <h4>Reliable & Experienced Architecture & Designs</h4>
+                        <p>enabling them to address challenges and meet
+                            business objectives.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Whu Us Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <!-- <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Check our tasty <span>Menu</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Show All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Lobster Bisque</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Bread barrel</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Crab Cake</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Caesar Selections</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Greek Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Spinach Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Lobster Roll</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Highlighted Services For <span>Interior Designs</span></h2>
+                <p>We believe surrounding ourselves with beauty helps us live better. That's why we have been
+                    carefully
+                    selecting the best accessories for homes, workplaces and public spaces</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modular Kitchen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Complete Automation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Furniture Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Interior Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Falses Ceiling</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="tab-1">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Decor & art</h3>
+                                    <p class="fst-italic">We stand for quality, safety & credibility, so you could be
+                                        trust us fully
+                                        about architectural working process.</p>
+                                    <p>Decor & art We stand for quality, safety & credibility, so you could be trust us
+                                        fully about
+                                        architectural working process. Our benefits Duis aute irure dolor in
+                                        reprehenderit in voluptate
+                                        velit esse cillum. Visualization to finished interior Architect draws sketches
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <%= image_tag 'modularkitchen.jpg' , class: "img-fluid" , alt: "" %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-2">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Renovation</h3>
+                                    <p class="fst-italic">Renovation We stand for quality, safety & credibility, so you
+                                        could be trust
+                                        us fully about architectural working process. Our benefits Visualization to
+                                        finished interior
+                                        Architect draws sketches</p>
+                                    <p>We stand for quality, safety & credibility, so you could be trust us fully about
+                                        architectural
+                                        working process.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <%= image_tag 'completeauto.webp' , class: "img-fluid" , alt: "" %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-3">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Interior work</h3>
+                                    <p class="fst-italic">Interior work Our benefits Visualization to finished interior
+                                        Architect draws
+                                        sketches</p>
+                                    <p>We stand for quality, safety & credibility, so you could be trust us fully about
+                                        architectural
+                                        working process.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <%= image_tag 'furniture.webp' , class: "img-fluid" , alt: "" %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-4">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Architecture</h3>
+                                    <p class="fst-italic">Architecture We stand for quality, safety & credibility, so
+                                        you could be trust
+                                        us fully about architectural working process. Our benefits Visualization to
+                                        finished interior
+                                        Architect draws sketches</p>
+                                    <p>We stand for quality, safety & credibility, so you could be trust us fully about
+                                        architectural
+                                        working process.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <%= image_tag 'interiorwork.jpg' , class: "img-fluid" , alt: "" %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-5">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                                    </p>
+                                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae
+                                        ut non quam ut
+                                        quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est
+                                        sint aut vitae
+                                        molestiae voluptate vel</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <%= image_tag 'false.jpg' , class: "img-fluid" , alt: "" %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+
+
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Interior <span>Design</span> for Personal and Commercial </h2>
+            </div>
+
+
+
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <%= image_tag 'interior1.webp' , class: "d-block w-100" , alt: "" %>
+                            </div>
+                            <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                <h3> Home </h3>
+                                <div class="price">
+                                    <p><span>Interior</span> </p>
+                                </div>
+                                <p class="fst-italic">
+                                    Get your home up and running in a jiffy. Livspace Select offers a wide range of
+                                    budget-friendly,
+                                    high-quality modular solutions like kitchens, wardrobes, TV units, bookshelves, shoe
+                                    racks and more
+                                    in colours, designs and sizes that can be customised to match your home.
+                                </p>
+                                <ul>
+                                    <li><i class="fa fa-check-circle-o"></i> kids room design ideas</li>
+                                    <li><i class="fa fa-check-circle-o"></i> Dark Room Colors and Vibrant Wall Paint
+                                        Changing Interior
+                                    </li>
+                                    <li><i class="fa fa-check-circle-o"></i> LUXURY AND ELEGANT APARTMENT LENDS TO SENSE
+                                        OF UNIQUENESS
+                                    </li>
+                                </ul>
+                                <p  class="fst-italic">
+                                    Your wardrobe is a big part of your life. Superior quality materials at the core
+                                    ensure it lasts a
+                                    lifetime.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <%= image_tag 'interior3.jpg' , class: "d-block w-100" , alt: "" %>
+                            </div>
+                            <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                <h3>Office Interior</h3>
+                                <div class="price">
+                                    <p> <span>Home Office Design</span> </p>
+                                </div>
+                                <p class="fst-italic">
+                                    A smartly designed home office not only inspires creativity but also helps you reach
+                                    your peak
+                                    productivity. Whether you want it to be minimalistic or modern, we can help you get
+                                    the look you
+                                    desire. Here are some home office designs to get inspired from
+                                </p>
+                                <ul>
+                                    <li><i class="fa fa-check-circle-o"></i> Wardrobe Interior Designs</li>
+                                    <li><i class="fa fa-check-circle-o"></i> False Ceiling Designs</li>
+                                    <li><i class="fa fa-check-circle-o"></i> Modern Hall Design</li>
+                                </ul>
+                                <p class="fst-italic" >
+                                    Ullamco laboris nisipclass ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in
+                                    voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="2000">
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <%= image_tag 'interior2.jpg' , class: "d-block w-100" , alt: "" %>
+                            </div>
+                            <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                <h3> Restaurant Interior Design </h3>
+                                <div class="price">
+                                    <p> <span> Attractive Design</span></p>
+                                </div>
+                                <p class="fst-italic">
+                                    Restaurant interior design is the key to attracting customers. It should be like a
+                                    magnet for
+                                    guests, promising them both an exceptional culinary and sensory experience .
+                                </p>
+                                <ul>
+                                    <li><i class="fa fa-check-circle-o"></i> Focus on the Demographics</li>
+                                    <li><i class="fa fa-check-circle-o"></i> Consider Table Styles</li>
+                                    <li><i class="fa fa-check-circle-o"></i> Look at the Floor</li>
+                                </ul>
+                                <p class="fst-italic">
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in
+                                    voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+
+
+
+
+
+
+        </div>
+        
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Book <span>Quote</span></h2>
+                <p>We are Lucky that you book a Quote with us. </p>
+            </div>
+
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                            data-rule="email" data-msg="Please enter a valid email">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" name="date" class="form-control" id="date" placeholder="Date"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" class="form-control" name="time" id="time" placeholder="Time"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" class="form-control" name="people" id="people" placeholder=" designing for">
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your booking request was sent. We will call back or send an Email to
+                        confirm your
+                        QUOTE. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+        </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+        <div class="container-fluid">
+
+            <div class="section-title">
+                <h2>Some photos from <span>DESIGNS</span></h2>
+                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+                    vitae
+                    autem.</p>
+            </div>
+
+            <div class="row g-0">
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/buildings.jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 1.avif' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/cozy-living-room (1).jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 2.jpg' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/Domestic.jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 3.jpg' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/Domestic.jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 4.jpg' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/Idea-interior-977x1024 (1).jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 5.png' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/luxyry-room.jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 6.jpg' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/modern-villa-683x1024.jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 7.jpg' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/carousel/Simple-home (1).jpg" class="gallery-lightbox">
+                            <%= image_tag 'gallery 8.jpg' , class: "img-fluid" , alt: "" %>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+        <div class="container">
+
+            <div class="section-title">
+                <h1>Our Proffesional <span>Designer</span></h1>
+                <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+            autem.</p> -->
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic">
+                            <%= image_tag 'designer.jpg' , class: "img-fluid" , alt: "" %>
+                        </div>
+                        <div class="member-info">
+                            <!-- <h4></h4>
+                <span>  </span> -->
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook-f"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic">
+                            <%= image_tag 'designer2.jpg' , class: "img-fluid" , alt: "" %>
+                        </div>
+                        <div class="member-info">
+                            <!-- <h4>Sarah Jhonson</h4>
+                <span>Flooring expert</span> -->
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook-f"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic">
+                            <%= image_tag 'designer3.jpg' , class: "img-fluid" , alt: "" %>
+                        </div>
+                        <div class="member-info">
+                            <!-- <h4>William Anderson</h4>
+                <span>Designing</span> -->
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook-f"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container position-relative">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <%= image_tag '2000-3.jpg' , class: "img-fluid" , alt: "" %>
+                                <h3>Saul Goodman</h3>
+                                <h4>Ceo &amp; Founder</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Best 15 Interior Designers & House Decorators in Hyderabad, Telangana, India | Houzz
+                                    GET IDEAS Bed & Bath Bathroom Powder Room Bedroom Storage & Closet Baby & Kids
+                                    Utility Laundry Garage Mudroom Landscape Patio Deck Pool Backyard Porch Exterior
+                                    Front Yard Driveway Home Bar
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <%= image_tag '2000-3.jpg' , class: "img-fluid" , alt: "" %>
+                                <h3>Sara Wilsson</h3>
+                                <h4>Designer</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Decorative Wire Mesh Curtain. Send Inquiry Now. extremely high quality. 20+ years
+                                    Manufacturer. china manufacturer. Transparency in Price, Material and Timeline No
+                                    hidden cost and assured on-time delivery End to End Solution
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <%= image_tag '2000-3.jpg' , class: "img-fluid" , alt: "" %>
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    professional service team. 5000+ customer world wide. professional supplier. Types:
+                                    china manufacturer, factory price, High quality service.Your home should be
+                                    something that you and your family take pride in and love to spend time in.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <%= image_tag '2000-3.jpg' , class: "img-fluid" , alt: "" %>
+                                <h3>Matt Brandon</h3>
+                                <h4>Freelancer</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    About Home Interior Designs At HomeLane, we believe that interior design is more
+                                    than great functionality and beautiful aesthetics. We aim to make your home
+                                    interiors a reflection of your personality.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <%= image_tag '2000-3.jpg' , class: "img-fluid" , alt: "" %>
+                                <h3>John Larson</h3>
+                                <h4>Entrepreneur</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>Interior design is the concept
+                                    through which you can decorate your home, hide its flaws and make it functional. It
+                                    makes your home interiors pleasing to the eye. The right colors, patterns, furniture
+                                    and home furnishings makes for an ideal home interior design.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2><span>Contact</span> Us</h2>
+                <p>Feel Free to Contact us</p>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe style="border:0; width: 100%; height: 350px;"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+
+<footer id="footer">
+    <div class="container-fluid row">
+        <div class="col-4">
+            <div class="footer-info">
+                <h4><i class="fa fa-map-marker me-3"></i>Address<span>.</span></h4>
+                <p> A108 Adam Street <br> NY 535022, USA<br><br>
+                    <i class="fa fa-phone me-3"></i> <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <i class="fa fa-envelope me-3"></i> <strong>Email:</strong> info@example.com<br>
+                </p>
+                <div class="social-links mt-3">
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+
+            <h3>Diamond Classic</h3>
+            <p>Change your life style with us.</p>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-youtube-play"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="col-4" style="text-align: -webkit-center;">
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <form action="" method="post">
+                    <input type="email" name="email" class="subs">
+                    <input type="submit" value="Subscribe" class="subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>Diamond Classic</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
+            Designed by <a href="">Best Tech Pvt Ltd</a>
+        </div>
+    </div>
+</footer><!-- End Footer -->

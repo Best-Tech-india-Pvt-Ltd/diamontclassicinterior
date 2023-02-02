@@ -1,0 +1,9 @@
+development:
+ adapter: postgresql
+ encoding: utf8
+ database: diamond_classic_interior_development
+ username: postgres
+ password: postgres
+ host: localhost
+ pool: 2
+ timeout: 5000
