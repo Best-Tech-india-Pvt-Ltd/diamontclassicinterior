@@ -1712,5 +1712,11 @@ body {
   .subs{
     margin-top: 5.5rem;
   }
-  
-  
+  .nav-tabs .nav-link{
+    color: white;
+    background-color:  #ffb03b;
+  }
+  .nav-tabs .nav-link:active{
+    color: white;
+    background-color: #ffa012 ;
+  }
