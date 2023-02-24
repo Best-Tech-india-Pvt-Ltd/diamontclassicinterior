@@ -132,6 +132,10 @@ body {
     margin: 0;
     max-height: 40px;
   }
+  .dia{
+    height: 52rem;
+
+  }
   
   /*--------------------------------------------------------------
   # Book a table button Menu
@@ -403,7 +407,7 @@ body {
     height: 45px; width: 45px; border: 2px solid #0486A6; border-radius: 45px;
 }
 .carousel-caption{
-    margin-bottom: 40rem;
+    margin-bottom: 18rem;
 }
 @media (max-width: 1200px) {
     .carousel-caption{
@@ -683,10 +687,16 @@ body {
   --------------------------------------------------------------*/
   .about {
     background: #fffaf3;
+  
+  }
+
+  .about{
+    margin-top: 1rem;
   }
   
   .about .content {
     padding: 0 80px;
+    margin-top: -2.5rem;
   }
   
   .about .content h3 {
